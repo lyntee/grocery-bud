@@ -31,7 +31,6 @@ const AppProvider = ({children}) => {
     setNewItems(updatedItems);
     refInputItem.current.value = null;
     setIsEditing(false);
-    // setEditId("");
   };
 
   // Event - clear all items
@@ -73,4 +72,4 @@ const useGlobalContext = () => {
   return useContext(AppContext);
 }
 
-export { AppProvider, useGlobalContext};
+export { AppProvider, useGlobalContext };
